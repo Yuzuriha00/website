@@ -10,18 +10,6 @@
     
   </head>
   <body>
-     <script type="text/javascript">
-       $(function () {
-  $(".image__sub__thumb").first().addClass("active"); 
-  $('.image__sub__thumb__photo').click(function () { 
-    image_url = $(this).attr("src"); 
-    $(".image__main__photo").attr("src", image_url).hide().fadeIn(); 
-    $(".image__sub__thumb.active").removeClass("active"); 
-    $(this).parent().addClass("active"); 
-  });
-});
-    </script>
-    
     <div class="image">
       <div class="image__main">
         <img class="image__main__photo" src="1.png" alt="main" width="300" height="300" />
@@ -59,5 +47,16 @@
         </div>
       </div>
     </div>
+     <script type="text/javascript">
+       $(function () {
+  $(".image__sub__thumb").first().addClass("active"); 
+  $('.image__sub__thumb__photo').click(function () { 
+    image_url = $(this).attr("src"); 
+    $(".image__main__photo").attr("src", image_url).hide().fadeIn(); 
+    $(".image__sub__thumb.active").removeClass("active"); 
+    $(this).parent().addClass("active"); 
+  });
+});
+    </script>
   </body>
 </html>
