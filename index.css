@@ -23,7 +23,7 @@ h1 {
 .img {
   text-align:center;
 }
-#text-button {
+.text-button {
   display: block;
   cursor: pointer;
   width: 160px;
