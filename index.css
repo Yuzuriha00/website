@@ -80,3 +80,12 @@
 .box {
    border-top: 9px dotted rgb(205, 199, 255) ; 
   }
+
+#text-button {
+  display: block;
+  cursor: pointer;
+  width: 160px;
+  text-align: center;
+  border: 1px solid #232323;
+}
+
