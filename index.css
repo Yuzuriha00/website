@@ -81,3 +81,22 @@
 .content1{
   position:absolute; top:100px; left:100px; 
 }
+
+.container {
+  position: relative;
+  width: 00px;
+  height: 300px;
+  background: #dddddd;
+}
+
+.background-blue {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background: #999;
+}
+
+.contents {
+  position: relative;
+}
