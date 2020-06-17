@@ -37,9 +37,9 @@
 }
 
 .btn{
-  border: 1px solid green;
+  border: rgb(205, 199, 255);
   border-radius: 5px;
-  background-color: green;
+  background-color: rgb(205, 199, 255);
   padding: 20px;
   text-align: center;
   color: white;
