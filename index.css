@@ -77,6 +77,6 @@
     padding: 0;
 }
 
-p.box {
+.box {
    border-top: 9px dotted rgb(205, 199, 255) ; 
   }
