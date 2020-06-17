@@ -16,7 +16,7 @@
 
 <form>
   <input type="file" id="example" multiple>
-
+<div id="text-button"><p id="text">クリック</p></div>
 </form>
     
 <script>
@@ -29,8 +29,9 @@ const handleFileSelect = () => {
 }
 fileInput.addEventListener('change', handleFileSelect);
 
-  <div id="text-button"><p id="text">クリック</p></div>
-    <script>
+};
+    </script>
+       <script>
     document.getElementById("text-button").onclick = function() {
 $(function () {
   $(".image__sub__thumb").first().addClass("active");
@@ -41,8 +42,6 @@ $(function () {
     $(this).parent().addClass("active"); 
   });
 });
-    </script>
-};
     </script>
   
     
@@ -69,9 +68,6 @@ $(function () {
         </div>
       </div>
     </div>
-<script>
-    
- 
-    </script>
+
 </body>
 </html>
