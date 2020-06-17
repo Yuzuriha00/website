@@ -79,3 +79,6 @@
     padding: 0;
 }
 
+p.box {
+   border-top: 9px dotted rgb(205, 199, 255) ; 
+  }
