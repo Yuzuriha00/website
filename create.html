@@ -31,18 +31,7 @@ fileInput.addEventListener('change', handleFileSelect);
 
 };
     </script>
-       <script>
-    document.getElementById("text-button").onclick = function() {
-$(function () {
-  $(".image__sub__thumb").first().addClass("active");
-  $('.image__sub__thumb__photo').click(function () { 
-    image_url = $(this).attr("src"); 
-    $(".image__main__photo").attr("src", image_url).hide().fadeIn(); 
-    $(".image__sub__thumb.active").removeClass("active"); 
-    $(this).parent().addClass("active"); 
-  });
-});
-    </script>
+   
   
     
        <div class="image">
@@ -65,9 +54,20 @@ $(function () {
         </div>
         <div class="image__sub__thumb">
           <img class="image__sub__thumb__photo" src="files[5]" alt="sub" width="60" height="60" />
-        </div>
+        </div>                                                                                 
       </div>
     </div>
+   <script>
+    document.getElementById("text-button").onclick = function() {
+  $(".image__sub__thumb").first().addClass("active");
+  $('.image__sub__thumb__photo').click(function () { 
+    image_url = $(this).attr("src"); 
+    $(".image__main__photo").attr("src", image_url).hide().fadeIn(); 
+    $(".image__sub__thumb.active").removeClass("active"); 
+    $(this).parent().addClass("active"); 
+  });
+});
+    </script>                                                                                       
 
 </body>
 </html>
