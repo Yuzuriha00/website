@@ -32,9 +32,7 @@
 .image__sub__thumb:not(.active) {
   opacity: 0.4;
 }
-.box {
-   border-bottom: 2px solid rgb(67, 26, 85);
-}
+
 
 .btn{
   border: rgb(91, 76, 203);
